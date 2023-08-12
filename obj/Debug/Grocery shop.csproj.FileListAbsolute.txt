@@ -1,0 +1,2 @@
+C:\Users\HOME\Desktop\deena\Assignment\MWM\Grocery Shop\obj\Debug\Grocery shop.csproj.AssemblyReference.cache
+C:\Users\HOME\Desktop\deena\Assignment\MWM\Grocery Shop\obj\Debug\Grocery shop.csproj.CoreCompileInputs.cache

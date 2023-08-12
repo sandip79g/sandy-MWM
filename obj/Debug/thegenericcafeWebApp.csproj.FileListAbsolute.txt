@@ -1,0 +1,2 @@
+D:\Red Beans\obj\Debug\thegenericcafeWebApp.csprojAssemblyReference.cache
+D:\Red Beans\obj\Debug\thegenericcafeWebApp.csproj.CoreCompileInputs.cache

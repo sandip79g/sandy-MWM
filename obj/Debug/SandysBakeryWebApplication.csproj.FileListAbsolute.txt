@@ -1,0 +1,2 @@
+C:\Users\AARJAN\source\repos\SandysBakeryWebApplication\obj\Debug\SandysBakeryWebApplication.csprojAssemblyReference.cache
+C:\Users\AARJAN\source\repos\SandysBakeryWebApplication\obj\Debug\SandysBakeryWebApplication.csproj.CoreCompileInputs.cache

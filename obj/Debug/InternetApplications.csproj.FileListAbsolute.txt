@@ -1,0 +1,2 @@
+C:\Users\Prashil\source\repos\InternetApplications\obj\Debug\InternetApplications.csprojAssemblyReference.cache
+C:\Users\Prashil\source\repos\InternetApplications\obj\Debug\InternetApplications.csproj.CoreCompileInputs.cache

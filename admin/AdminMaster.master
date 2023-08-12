@@ -1,0 +1,129 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="admin_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors"/>
+    <meta name="generator" content="Jekyll v4.0.1"/>
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/"/>
+
+    <!-- Bootstrap core CSS -->
+	<link href="../dist/css/bootstrap.css" rel="stylesheet"/>
+    
+    <link href="Styles/dashboard.css" rel="stylesheet" />
+  
+	
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="styles/dashboard.js"></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+      . 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+ </head>
+<body style="background-color:lightgray; color:white;">
+    
+<form id="form1" runat="server" style="background-color:lightgray; height:auto">
+    <!--header-->
+  <div class="navbar navbar-dark sticky-top flex-md-nowrap p-0 shadow" style="background-color:white; color:gray">
+      <h2 style="color:#5C7264; padding-left: 15px; padding-top:20px;"><a href="AdminHome.aspx" runat="server" class="navbar-brand col-md-3 col-lg-2 mr-0 px-3"></a>Admin Area.</h2></a>
+     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+       <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" style="background-color:white; color:gray" href="#">
+            <img src="../Sandys_Pics/Logopng.png" style="height:50px; width:50px; font-size:30px;"/>Generic Cafe</a>
+
+        
+ </div>
+    <!--header ends-->
+
+
+
+<!--main-->
+        
+    <div class="row">
+
+        <!--sidebar-->
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style="padding-top:60px;">
+      <div class="sidebar-sticky pt-3" style="background-color: #D6001C; color: white; padding-left: 20px;">
+
+        <ul class="nav flex-column">
+           <br />
+           <li class="nav-item nav-link active" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"><a  href="admin_add.aspx" style="color:white; padding-top:20px;">Add admin</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"><a  href="View_foods.aspx" style="color:white;">View Foods</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"><a  href="View_feedback.aspx" style="color:white;">View Feedback</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"> <a  href="View_sales.aspx" style="color:white;">View Sales</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"> <a  href="add_foods.aspx" style="color:white;">Add Foods</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"> <a  href="change_password.aspx" style="color:white;">Change Password</a><br /></li>
+           <li class="nav-item" style="display: block;
+    padding: 0.5rem 1rem; color:#000000;"> <a  href="logout.aspx" style="color:white;">Logout</a><br /></li>
+            </ul>
+          </div>
+        </nav>
+        
+          <!--closed sidebar-->
+
+          <!--content area-->
+        
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+            </asp:ContentPlaceHolder>
+        </main>
+        
+        
+          <!--content area-->
+
+          
+
+
+      </div>
+   
+<!--main closed-->
+        <!--footer area-->
+         
+
+    <!--footer-->
+
+
+
+        
+	
+    </form>
+    
+</body>
+</html>

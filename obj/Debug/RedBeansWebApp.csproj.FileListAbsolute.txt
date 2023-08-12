@@ -1,0 +1,2 @@
+D:\Red Beans\obj\Debug\RedBeansWebApp.csprojAssemblyReference.cache
+D:\Red Beans\obj\Debug\RedBeansWebApp.csproj.CoreCompileInputs.cache
